@@ -1683,12 +1683,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		text-decoration: none;
-		border-bottom: dotted 1px;
 	}
-
-		a:hover {
-			border-bottom-color: transparent !important;
-		}
 
 	strong, b {
 		font-weight: bold;
@@ -3819,11 +3814,14 @@
 			color: #d0e4f8;
 		}
 
-		#header a {
+		#header a.resume {
 			color: inherit;
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+	    text-decoration: none;
 			color: #ffffff;
 		}
+      #header a.resume:hover {
+        color: #a6a6a6;
+  		}
 
 		#header strong, #header b {
 			color: #ffffff;
