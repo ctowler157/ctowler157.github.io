@@ -1699,7 +1699,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: -1.5em 0 0.5em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2448,6 +2448,10 @@
 		ul li {
 			padding-left: 0.5em;
 		}
+
+    .content li {
+      text-align: left;
+    }
 
 		ul.alt {
 			list-style: none;
